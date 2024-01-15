@@ -1,5 +1,8 @@
 
-const heading = React.createElement('h1',{id:"heading"},'This is from React separate script')
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const heading = React.createElement('h1',{id:"heading"},'This is from React separate script for me')
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(heading)
 
